@@ -4,6 +4,7 @@ export default defineConfig({
   title: 'AI 开发者部署指南',
   description: 'Claude Code、Codex CLI、OpenClaw、Hermes Agent 与 CC Switch 完整部署教程',
   lang: 'zh-CN',
+  base: '/claude-code-/',
 
   themeConfig: {
     nav: [
