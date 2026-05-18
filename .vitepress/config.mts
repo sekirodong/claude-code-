@@ -9,6 +9,7 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
+      { text: '环境准备', link: '/guide/prerequisites' },
       {
         text: 'Claude Code',
         items: [
@@ -38,7 +39,31 @@ export default defineConfig({
     ],
 
     sidebar: {
+      '/guide/': [
+        {
+          text: '开始之前',
+          items: [
+            { text: '环境准备（npm / Node.js / pip）', link: '/guide/prerequisites' },
+          ],
+        },
+        {
+          text: '工具文档',
+          items: [
+            { text: 'Claude Code', link: '/claude-code/' },
+            { text: 'OpenAI Codex CLI', link: '/codex/' },
+            { text: 'OpenClaw', link: '/openclaw/' },
+            { text: 'Hermes Agent', link: '/hermes/' },
+            { text: 'CC Switch', link: '/cc-switch/' },
+          ],
+        },
+      ],
       '/claude-code/': [
+        {
+          text: '开始之前',
+          items: [
+            { text: '环境准备（npm / Node.js）', link: '/guide/prerequisites' },
+          ],
+        },
         {
           text: 'Claude Code',
           items: [
@@ -59,6 +84,12 @@ export default defineConfig({
       ],
       '/codex/': [
         {
+          text: '开始之前',
+          items: [
+            { text: '环境准备（npm / Node.js 22+）', link: '/guide/prerequisites' },
+          ],
+        },
+        {
           text: 'OpenAI Codex CLI',
           items: [
             { text: '简介与概述', link: '/codex/' },
@@ -78,6 +109,12 @@ export default defineConfig({
       ],
       '/openclaw/': [
         {
+          text: '开始之前',
+          items: [
+            { text: '环境准备（npm / Node.js 22+）', link: '/guide/prerequisites' },
+          ],
+        },
+        {
           text: 'OpenClaw',
           items: [
             { text: '部署指南', link: '/openclaw/' },
@@ -92,6 +129,12 @@ export default defineConfig({
         },
       ],
       '/hermes/': [
+        {
+          text: '开始之前',
+          items: [
+            { text: '环境准备（Python / pip / uv）', link: '/guide/prerequisites' },
+          ],
+        },
         {
           text: 'Hermes Agent',
           items: [

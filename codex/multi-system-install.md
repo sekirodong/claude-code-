@@ -3,6 +3,10 @@
 > 来源：[QuantumNous/new-api-docs](https://github.com/QuantumNous/new-api-docs)  
 > 覆盖 Windows（WSL2 方案）、macOS（Homebrew 方案）、Linux 三个平台的完整安装流程，附各系统一键配置脚本。
 
+::: tip 前置环境
+Codex CLI 要求 Node.js **22+**。如果你还没有安装 Node.js / npm，请先阅读 **[环境准备指南](../guide/prerequisites)**。
+:::
+
 ## 系统选择建议
 
 | 系统 | 推荐方案 | 原因 |

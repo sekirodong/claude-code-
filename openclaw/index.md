@@ -17,6 +17,10 @@ OpenClaw 是一款自托管的个人 AI 代理框架，核心理念是"在你已
 | 包管理器 | npm、pnpm 或 bun |
 | API 密钥 | 任意模型提供商（OpenAI、Anthropic、本地模型等） |
 
+::: tip 前置环境
+OpenClaw 需要 Node.js **22.19+** 或 **24**。如果你还没有安装 Node.js / npm，请先阅读 **[环境准备指南](../guide/prerequisites)**。
+:::
+
 ::: warning Windows 用户
 OpenClaw 在 Windows 原生 PowerShell 下不受支持，请先安装 WSL2，在 Ubuntu 环境中执行所有操作。WSL2 安装参考：[Codex 多系统安装教程 → Windows WSL2 方案](../codex/multi-system-install)。
 :::

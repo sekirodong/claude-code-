@@ -1,5 +1,9 @@
 # 多系统安装指南
 
+::: tip 前置环境
+如果你还没有安装 Node.js / npm，请先阅读 **[环境准备指南](../guide/prerequisites)**，包含 Windows、macOS、Linux 三平台的完整安装步骤。
+:::
+
 本页覆盖 **Windows、macOS、Linux** 三个平台的 Claude Code 完整安装流程，包含各系统特有的权限处理方式和网络配置。
 
 ## 系统速览
