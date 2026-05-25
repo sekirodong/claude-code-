@@ -374,3 +374,9 @@ python3 --version  # 3.10+（Hermes）
 uv --version       # 可选
 git --version      # 2.x
 ```
+
+---
+
+## 下一步：配置网络代理
+
+国内网络直连 Anthropic / OpenAI API 通常会超时。环境准备完成后，建议阅读 **[网络代理配置指南](./proxy)**，了解如何安装 FlClash 并选择合适的机场服务。

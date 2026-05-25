@@ -9,7 +9,13 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      { text: '环境准备', link: '/guide/prerequisites' },
+      {
+        text: '开始之前',
+        items: [
+          { text: '环境准备（npm / Node.js / pip）', link: '/guide/prerequisites' },
+          { text: '网络代理（FlClash + 机场）', link: '/guide/proxy' },
+        ],
+      },
       {
         text: 'Claude Code',
         items: [
@@ -44,6 +50,7 @@ export default defineConfig({
           text: '开始之前',
           items: [
             { text: '环境准备（npm / Node.js / pip）', link: '/guide/prerequisites' },
+            { text: '网络代理（FlClash + 机场）', link: '/guide/proxy' },
           ],
         },
         {
@@ -62,6 +69,7 @@ export default defineConfig({
           text: '开始之前',
           items: [
             { text: '环境准备（npm / Node.js）', link: '/guide/prerequisites' },
+            { text: '网络代理（FlClash + 机场）', link: '/guide/proxy' },
           ],
         },
         {
@@ -87,6 +95,7 @@ export default defineConfig({
           text: '开始之前',
           items: [
             { text: '环境准备（npm / Node.js 22+）', link: '/guide/prerequisites' },
+            { text: '网络代理（FlClash + 机场）', link: '/guide/proxy' },
           ],
         },
         {
@@ -112,6 +121,7 @@ export default defineConfig({
           text: '开始之前',
           items: [
             { text: '环境准备（npm / Node.js 22+）', link: '/guide/prerequisites' },
+            { text: '网络代理（FlClash + 机场）', link: '/guide/proxy' },
           ],
         },
         {
@@ -133,6 +143,7 @@ export default defineConfig({
           text: '开始之前',
           items: [
             { text: '环境准备（Python / pip / uv）', link: '/guide/prerequisites' },
+            { text: '网络代理（FlClash + 机场）', link: '/guide/proxy' },
           ],
         },
         {
