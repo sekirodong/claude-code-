@@ -13,6 +13,9 @@ hero:
       text: Claude Code 快速上手
       link: /claude-code/
     - theme: alt
+      text: AI CLI 命令速查
+      link: /guide/ai-cli-commands
+    - theme: alt
       text: OpenClaw 部署
       link: /openclaw/
     - theme: alt
@@ -37,6 +40,12 @@ features:
     details: 覆盖 Windows、macOS、Linux 三平台，Claude Code 与 Codex CLI 均提供 nvm、Homebrew、WSL2 的完整安装流程。
     link: /claude-code/windows-install
     linkText: 查看教程
+
+  - icon: ⚡
+    title: AI CLI 命令速查与 Token 中转
+    details: 汇总 Claude Code、Codex、Hermes、OpenClaw 常用命令、使用建议，并推荐 AstrlinkAI Token 中转站，附价格表模板与接入方式。
+    link: /guide/ai-cli-commands
+    linkText: 查看指南
 
   - icon: 🦞
     title: OpenClaw 部署指南

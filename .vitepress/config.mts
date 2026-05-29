@@ -14,6 +14,7 @@ export default defineConfig({
         items: [
           { text: '环境准备（npm / Node.js / pip）', link: '/guide/prerequisites' },
           { text: '网络代理（FlClash + 机场）', link: '/guide/proxy' },
+          { text: 'AI CLI 常用命令与 Token 中转', link: '/guide/ai-cli-commands' },
         ],
       },
       {
@@ -51,6 +52,7 @@ export default defineConfig({
           items: [
             { text: '环境准备（npm / Node.js / pip）', link: '/guide/prerequisites' },
             { text: '网络代理（FlClash + 机场）', link: '/guide/proxy' },
+            { text: 'AI CLI 常用命令与 Token 中转', link: '/guide/ai-cli-commands' },
           ],
         },
         {
